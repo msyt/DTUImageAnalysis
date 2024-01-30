@@ -305,9 +305,9 @@ c = 90
 im_org[r, c] = [255, 0, 0]
 ```
 
-**Exercise 16:** *Try to use NumPy slicing to color the upper half of the photo green.*
+    **Exercise 16:** *Try to use NumPy slicing to color the upper half of the photo green.*
 
-*HINT:* The number of rows in the image can be found using `rows = im_org.shape[0]`. Remember to **cast** your computed height into **int** before using it. For example: `r_2 = int(rows / 2)` or use the **division floor operator**: `r_2 = rows // 2`.
+    *HINT:* The number of rows in the image can be found using `rows = im_org.shape[0]`. Remember to **cast** your computed height into **int** before using it. For example: `r_2 = int(rows / 2)` or use the **division floor operator**: `r_2 = rows // 2`.
 
 
 
